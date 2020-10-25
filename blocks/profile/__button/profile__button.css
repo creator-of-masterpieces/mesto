@@ -1,0 +1,15 @@
+.profile__button {
+	display: block;
+	border: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	cursor: pointer;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.profile__button:hover,
+.profile__button:focus {
+	opacity: 0.6;
+}

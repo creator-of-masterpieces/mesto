@@ -1,0 +1,5 @@
+.profile__avatar-container {
+	box-sizing: border-box;
+	max-width: 168px;
+	padding: 0 29px 0 0;
+}

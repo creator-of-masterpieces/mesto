@@ -1,0 +1,6 @@
+.elements__description {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 21px;
+	padding-left: 17px;
+}
