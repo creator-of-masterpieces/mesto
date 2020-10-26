@@ -3,3 +3,9 @@
 	background-color: #fff;
 	border-radius: 10px;
 }
+
+@media screen and (max-width: 426px) {
+	.elements__item {
+		margin: 0 auto;
+	}
+}
