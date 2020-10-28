@@ -1,0 +1,19 @@
+.popup__form {
+	position: relative;
+	font: inherit;
+	box-sizing: border-box;
+	max-width: 430px;
+	min-height: 330px;
+	padding: 34px 36px 37px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.popup__form {
+		max-width: 282px;
+	}
+}
+
+
+
