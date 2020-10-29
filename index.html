@@ -19,73 +19,75 @@
 		</header>
 
 
-		<!-- ------------------------СЕКЦИЯ PROFILE------------------------------------ -->
-		<section class="profile auto-margins">
-			<div class="profile__avatar-container">
-				<img class="profile__avatar" src="./img/avatar.jpg" alt="Аватар профиля">
-			</div>
-			<div class="profile__description">
-				<div class="profile__title-wrap">
-					<h1 class="profile__title">Жак-Ив Кусто</h1>
-					<button class="profile__button profile__button_type_edit" type="button"></button>
+		<main class="main-content">
+			<!-- ------------------------СЕКЦИЯ PROFILE------------------------------------ -->
+			<section class="profile auto-margins">
+				<div class="profile__avatar-container">
+					<img class="profile__avatar" src="./img/avatar.jpg" alt="Аватар профиля">
 				</div>
-				<p class="profile__subtitle">Исследователь океана</p>
-			</div>
-			<button class="profile__button profile__button_type_add" type="button"></button>
-		</section>
-
-
-		<!-- ------------------------СЕКЦИЯ ELEMENTS------------------------------------ -->
-		<section class="elements auto-margins">
-
-			<div class="elements__item">
-				<img class="elements__image" src="./img/kirill-pershin-1088404-unsplash.jpg" alt="Карачевск">
-				<div class="elements__description">
-					<h2 class="elements__title">Карачаевск</h2>
-					<button class="elements__like">
+				<div class="profile__description">
+					<div class="profile__title-wrap">
+						<h1 class="profile__title">Жак-Ив Кусто</h1>
+						<button class="profile__button profile__button_type_edit" type="button"></button>
+					</div>
+					<p class="profile__subtitle">Исследователь океана</p>
 				</div>
-			</div>
+				<button class="profile__button profile__button_type_add" type="button"></button>
+			</section>
 
-			<div class="elements__item">
-				<img class="elements__image" src="./img/kirill-pershin-1404681-unsplash.jpg" alt="Карачевск">
-				<div class="elements__description">
-					<h2 class="elements__title">Гора Эльбрус</h2>
-					<button class="elements__like">
-				</div>
-			</div>
 
-			<div class="elements__item">
-				<img class="elements__image" src="./img/kirill-pershin-1556355-unsplash.jpg" alt="Карачевск">
-				<div class="elements__description">
-					<h2 class="elements__title">Домбай</h2>
-					<button class="elements__like">
-				</div>
-			</div>
+			<!-- ------------------------СЕКЦИЯ ELEMENTS------------------------------------ -->
+			<section class="elements auto-margins">
 
-			<div class="elements__item">
-				<img class="elements__image" src="./img/kirill-pershin-1404681-unsplash.jpg" alt="Карачевск">
-				<div class="elements__description">
-					<h2 class="elements__title">Гора Эльбрус</h2>
-					<button class="elements__like">
+				<div class="elements__item">
+					<img class="elements__image" src="./img/kirill-pershin-1088404-unsplash.jpg" alt="Карачевск">
+					<div class="elements__description">
+						<h2 class="elements__title">Карачаевск</h2>
+						<button class="elements__like">
+					</div>
 				</div>
-			</div>
 
-			<div class="elements__item">
-				<img class="elements__image" src="./img/kirill-pershin-1556355-unsplash.jpg" alt="Карачевск">
-				<div class="elements__description">
-					<h2 class="elements__title">Домбай</h2>
-					<button class="elements__like">
+				<div class="elements__item">
+					<img class="elements__image" src="./img/kirill-pershin-1404681-unsplash.jpg" alt="Карачевск">
+					<div class="elements__description">
+						<h2 class="elements__title">Гора Эльбрус</h2>
+						<button class="elements__like">
+					</div>
 				</div>
-			</div>
 
-			<div class="elements__item">
-				<img class="elements__image" src="./img/kirill-pershin-1088404-unsplash.jpg" alt="Карачевск">
-				<div class="elements__description">
-					<h2 class="elements__title">Карачаево-Черкесия</h2>
-					<button class="elements__like">
+				<div class="elements__item">
+					<img class="elements__image" src="./img/kirill-pershin-1556355-unsplash.jpg" alt="Карачевск">
+					<div class="elements__description">
+						<h2 class="elements__title">Домбай</h2>
+						<button class="elements__like">
+					</div>
 				</div>
-			</div>
-		</section>
+
+				<div class="elements__item">
+					<img class="elements__image" src="./img/kirill-pershin-1404681-unsplash.jpg" alt="Карачевск">
+					<div class="elements__description">
+						<h2 class="elements__title">Гора Эльбрус</h2>
+						<button class="elements__like">
+					</div>
+				</div>
+
+				<div class="elements__item">
+					<img class="elements__image" src="./img/kirill-pershin-1556355-unsplash.jpg" alt="Карачевск">
+					<div class="elements__description">
+						<h2 class="elements__title">Домбай</h2>
+						<button class="elements__like">
+					</div>
+				</div>
+
+				<div class="elements__item">
+					<img class="elements__image" src="./img/kirill-pershin-1088404-unsplash.jpg" alt="Карачевск">
+					<div class="elements__description">
+						<h2 class="elements__title">Карачаево-Черкесия</h2>
+						<button class="elements__like">
+					</div>
+				</div>
+			</section>
+		</main>
 
 		<footer class="footer">
 			<p class="footer__copyright">© 2020 Mesto Russia</p>
@@ -93,17 +95,17 @@
 	</div>
 
 
-		<section class="popup">
-			<form class="popup__form auto-margins">
-				<button class="popup__button-close" type="button"></button>
-				<h2 class="popup__title">Редактировать профиль</h2>
-				<input class="popup__input popup__input_type_name" type="text" placeholder="Жак-Ив Кусто">
-				<input class="popup__input popup__input_type_job" type="text" placeholder="Исследователь океана">
-				<button class="popup__button-save" type="submit">Сохранить</button>
-			</form>
-		</section>
+	<section class="popup">
+		<form class="popup__form auto-margins">
+			<button class="popup__button-close" type="button"></button>
+			<h2 class="popup__title">Редактировать профиль</h2>
+			<input class="popup__input popup__input_type_name" type="text" placeholder="Жак-Ив Кусто">
+			<input class="popup__input popup__input_type_job" type="text" placeholder="Исследователь океана">
+			<button class="popup__button-save" type="submit">Сохранить</button>
+		</form>
+	</section>
 
-<script src="./scripts/index.js"></script>
+	<script src="./scripts/index.js"></script>
 </body>
 
 </html>
