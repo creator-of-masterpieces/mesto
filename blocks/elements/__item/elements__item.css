@@ -1,4 +1,6 @@
 .elements__item {
+	min-height: 362px;
+	max-height: 362px;
 	color: #000;
 	background-color: #fff;
 	border-radius: 10px;
